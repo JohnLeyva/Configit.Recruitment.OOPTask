@@ -1,0 +1,7 @@
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\bin\Debug\JLeyva.RobotWars.Test.dll
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\bin\Debug\JLeyva.RobotWars.Test.pdb
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\bin\Debug\Jleyva.RobotWars.Entities.dll
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\bin\Debug\Jleyva.RobotWars.Entities.pdb
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\obj\Debug\JLeyva.RobotWars.Test.dll
+D:\Dev\Tests\JLeyva.RobotWars.Console\JLeyva.RobotWars.Test\obj\Debug\JLeyva.RobotWars.Test.pdb

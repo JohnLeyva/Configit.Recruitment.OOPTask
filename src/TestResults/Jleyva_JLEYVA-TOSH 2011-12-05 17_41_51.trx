@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="321ea54b-60a1-4998-85ac-ba89edf9dea7" name="Jleyva@JLEYVA-TOSH 2011-12-05 17:41:51" runUser="Jleyva-TOSH\Jleyva" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="db101458-ad15-49ad-abd8-2eb384263731">
+    <Deployment runDeploymentRoot="Jleyva_JLEYVA-TOSH 2011-12-05 17_41_51">
+      <DeploymentItem filename="D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Entities\bin\Debug\ConfigIt.DesertRace.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-05T17:41:51.7228603+00:00" queuing="2011-12-05T17:41:52.2808922+00:00" start="2011-12-05T17:41:52.2878926+00:00" finish="2011-12-05T17:41:53.1069394+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PlayGameTest_Case_2" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a">
+      <Execution id="4dd04e42-96ea-47c2-ab69-d0bb3ed03a12" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.GameTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayGameTest_Case_2" />
+    </UnitTest>
+    <UnitTest name="PlayGameTest_Case_1" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="18137760-fe3f-202c-8762-2528f8d2e4ce">
+      <Execution id="d8d92ef6-b706-41bd-87b0-97ab3fa6ced2" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.GameTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayGameTest_Case_1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18137760-fe3f-202c-8762-2528f8d2e4ce" executionId="d8d92ef6-b706-41bd-87b0-97ab3fa6ced2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a" executionId="4dd04e42-96ea-47c2-ab69-d0bb3ed03a12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d8d92ef6-b706-41bd-87b0-97ab3fa6ced2" testId="18137760-fe3f-202c-8762-2528f8d2e4ce" testName="PlayGameTest_Case_1" computerName="JLEYVA-TOSH" duration="00:00:00.0837270" startTime="2011-12-05T17:41:52.2918928+00:00" endTime="2011-12-05T17:41:53.0179343+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8d92ef6-b706-41bd-87b0-97ab3fa6ced2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;V1 4 4 S
+&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at ConfigIt.DesertRace.Test.GameTest.PlayGameWithAssert(StringBuilder input, StringBuilder expected) in D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Test\GameTest.cs:line 77
+   at ConfigIt.DesertRace.Test.GameTest.PlayGameTest_Case_1() in D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Test\GameTest.cs:line 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4dd04e42-96ea-47c2-ab69-d0bb3ed03a12" testId="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a" testName="PlayGameTest_Case_2" computerName="JLEYVA-TOSH" duration="00:00:00.0020184" startTime="2011-12-05T17:41:53.0209345+00:00" endTime="2011-12-05T17:41:53.0259348+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dd04e42-96ea-47c2-ab69-d0bb3ed03a12">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;V1 4 2 E
+V2 3 5 N
+&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at ConfigIt.DesertRace.Test.GameTest.PlayGameWithAssert(StringBuilder input, StringBuilder expected) in D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Test\GameTest.cs:line 77
+   at ConfigIt.DesertRace.Test.GameTest.PlayGameTest_Case_2() in D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Test\GameTest.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

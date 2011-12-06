@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6995c42e-3d60-45f8-a19d-b3b69b34fc6c" name="Jleyva@JLEYVA-TOSH 2011-12-05 18:07:22" runUser="Jleyva-TOSH\Jleyva" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6b8af428-3fd3-4e7c-b6b4-56ce86f08e41">
+    <Deployment runDeploymentRoot="Jleyva_JLEYVA-TOSH 2011-12-05 18_07_22">
+      <DeploymentItem filename="D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Entities\bin\Debug\ConfigIt.DesertRace.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-05T18:07:22.8124336+00:00" queuing="2011-12-05T18:07:24.7915468+00:00" start="2011-12-05T18:07:25.1085649+00:00" finish="2011-12-05T18:08:06.2639189+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JLEYVA-TOSH" outcome="Error" timestamp="2011-12-05T18:08:06.2619188+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PlayGameTest_Case_2" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a">
+      <Execution id="910cf727-5451-4630-ba0a-e4fdbddca7c3" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.GameTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayGameTest_Case_2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a" executionId="910cf727-5451-4630-ba0a-e4fdbddca7c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="910cf727-5451-4630-ba0a-e4fdbddca7c3" testId="5519aed1-5ae7-a693-060c-dd4ba0fb1c0a" testName="PlayGameTest_Case_2" computerName="JLEYVA-TOSH" duration="00:00:40.8983393" startTime="2011-12-05T18:07:25.3655796+00:00" endTime="2011-12-05T18:08:06.2639189+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="910cf727-5451-4630-ba0a-e4fdbddca7c3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

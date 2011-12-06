@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9e0c2160-107b-41a0-9157-741b557247cf" name="Jleyva@JLEYVA-TOSH 2011-12-05 17:53:09" runUser="Jleyva-TOSH\Jleyva" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="534cd8a5-fa95-4fd6-91f1-39f704633e34">
+    <Deployment runDeploymentRoot="Jleyva_JLEYVA-TOSH 2011-12-05 17_53_09">
+      <DeploymentItem filename="D:\John\ConfigIt\ConfigIT.Recruitment.OOPTask\src\ConfigIt.DesertRace.Entities\bin\Debug\ConfigIt.DesertRace.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-05T17:53:09.2656135+00:00" queuing="2011-12-05T17:53:09.9276514+00:00" start="2011-12-05T17:53:10.0416579+00:00" finish="2011-12-05T17:53:10.9627106+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecCommand_Move_N_Onvalid" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="e260c82d-1711-f71e-5732-affb908b9d61">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="1d23c518-3207-4e1e-ac83-95916f15d6a0" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_N_Onvalid" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_W_Onvalid" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="00ef3f0f-8e9f-48fe-99e5-cc322405af54">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="6f53fd3a-2c2e-4b1d-87d0-f987338a638a" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_W_Onvalid" />
+    </UnitTest>
+    <UnitTest name="VehicleConstructorTest1" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="e46427f7-38cb-b4ad-845a-9b67fb374b86">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Creation" />
+      </TestCategory>
+      <Execution id="6f950269-163b-4566-8959-0ae666bb7922" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VehicleConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_N" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="f05a3889-6b7c-4568-a42d-74c3664a15f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="b1476262-f6e4-4f2b-af33-b30e7dab37a2" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_N" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_W" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="c84909b0-1154-f1df-c75b-1802e345b76c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="8b4d974b-1f69-4d46-9b52-f9370f63dcdb" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_W" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_E_Onvalid" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="02289283-468e-f931-efbe-3d719bedfd2b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="826fd0b8-0b60-437e-ae65-b03b72fc48b5" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_E_Onvalid" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_S" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="d27af3b4-e2e7-e56e-cc26-c90be0353a7b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="2d65f1e6-1508-4f98-b507-5c7e07e8bb11" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_S" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Right_E" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="40a3da89-9b26-eb29-47dd-0f141ed477b3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Direction" />
+      </TestCategory>
+      <Execution id="27f55e50-e472-47f5-867d-108735b1bafe" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Right_E" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Left_E" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="e15f4ca3-6342-307f-7815-641c5f03e872">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Direction" />
+      </TestCategory>
+      <Execution id="0cf490ff-4bf3-4587-9b3e-7eaa0ab0f50f" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Left_E" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Left_N" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="98ca854e-5386-f173-5d52-1a76008e0fff">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Direction" />
+      </TestCategory>
+      <Execution id="95dfe85b-30e7-4c66-9379-2fc003ed4456" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Left_N" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_S_Onvalid" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="6ff55a2c-83d1-716c-26dc-bf502963f2b3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="3e7d63de-122e-43c7-aadf-1f32ab66eb62" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_S_Onvalid" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Right_N" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="5c8b7aa3-c821-4c7c-9993-5a4a5dcd4749">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Direction" />
+      </TestCategory>
+      <Execution id="bb08c7a4-063e-40cc-9d54-e5dafb8d3a60" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Right_N" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_T1" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="3e120eee-50cf-44a9-fbd2-80ed8c9e2e89">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="c8ded23d-9ac0-4288-b601-b6ed62a44378" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_T1" />
+    </UnitTest>
+    <UnitTest name="ExecCommand_Move_E" storage="d:\john\configit\configit.recruitment.ooptask\src\configit.desertrace.test\bin\debug\jleyva.robotwars.test.dll" id="7e8349d4-0fb4-7e4c-6f24-54908d8cd7e2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Vehicle Movement" />
+      </TestCategory>
+      <Execution id="3bf5d921-ddbd-446e-9c68-86689e2441b3" />
+      <TestMethod codeBase="D:/John/ConfigIt/ConfigIT.Recruitment.OOPTask/src/ConfigIt.DesertRace.Test/bin/Debug/JLeyva.RobotWars.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ConfigIt.DesertRace.Test.VehicleTest, JLeyva.RobotWars.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecCommand_Move_E" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e15f4ca3-6342-307f-7815-641c5f03e872" executionId="0cf490ff-4bf3-4587-9b3e-7eaa0ab0f50f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98ca854e-5386-f173-5d52-1a76008e0fff" executionId="95dfe85b-30e7-4c66-9379-2fc003ed4456" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8349d4-0fb4-7e4c-6f24-54908d8cd7e2" executionId="3bf5d921-ddbd-446e-9c68-86689e2441b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02289283-468e-f931-efbe-3d719bedfd2b" executionId="826fd0b8-0b60-437e-ae65-b03b72fc48b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f05a3889-6b7c-4568-a42d-74c3664a15f6" executionId="b1476262-f6e4-4f2b-af33-b30e7dab37a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e260c82d-1711-f71e-5732-affb908b9d61" executionId="1d23c518-3207-4e1e-ac83-95916f15d6a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d27af3b4-e2e7-e56e-cc26-c90be0353a7b" executionId="2d65f1e6-1508-4f98-b507-5c7e07e8bb11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ff55a2c-83d1-716c-26dc-bf502963f2b3" executionId="3e7d63de-122e-43c7-aadf-1f32ab66eb62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e120eee-50cf-44a9-fbd2-80ed8c9e2e89" executionId="c8ded23d-9ac0-4288-b601-b6ed62a44378" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c84909b0-1154-f1df-c75b-1802e345b76c" executionId="8b4d974b-1f69-4d46-9b52-f9370f63dcdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00ef3f0f-8e9f-48fe-99e5-cc322405af54" executionId="6f53fd3a-2c2e-4b1d-87d0-f987338a638a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40a3da89-9b26-eb29-47dd-0f141ed477b3" executionId="27f55e50-e472-47f5-867d-108735b1bafe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c8b7aa3-c821-4c7c-9993-5a4a5dcd4749" executionId="bb08c7a4-063e-40cc-9d54-e5dafb8d3a60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e46427f7-38cb-b4ad-845a-9b67fb374b86" executionId="6f950269-163b-4566-8959-0ae666bb7922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0cf490ff-4bf3-4587-9b3e-7eaa0ab0f50f" testId="e15f4ca3-6342-307f-7815-641c5f03e872" testName="ExecCommand_Left_E" computerName="JLEYVA-TOSH" duration="00:00:00.0351482" startTime="2011-12-05T17:53:10.1126619+00:00" endTime="2011-12-05T17:53:10.8097018+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cf490ff-4bf3-4587-9b3e-7eaa0ab0f50f">
+    </UnitTestResult>
+    <UnitTestResult executionId="95dfe85b-30e7-4c66-9379-2fc003ed4456" testId="98ca854e-5386-f173-5d52-1a76008e0fff" testName="ExecCommand_Left_N" computerName="JLEYVA-TOSH" duration="00:00:00.0006856" startTime="2011-12-05T17:53:10.8157022+00:00" endTime="2011-12-05T17:53:10.8227026+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95dfe85b-30e7-4c66-9379-2fc003ed4456">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bf5d921-ddbd-446e-9c68-86689e2441b3" testId="7e8349d4-0fb4-7e4c-6f24-54908d8cd7e2" testName="ExecCommand_Move_E" computerName="JLEYVA-TOSH" duration="00:00:00.0019927" startTime="2011-12-05T17:53:10.8277028+00:00" endTime="2011-12-05T17:53:10.8367034+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bf5d921-ddbd-446e-9c68-86689e2441b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="826fd0b8-0b60-437e-ae65-b03b72fc48b5" testId="02289283-468e-f931-efbe-3d719bedfd2b" testName="ExecCommand_Move_E_Onvalid" computerName="JLEYVA-TOSH" duration="00:00:00.0059261" startTime="2011-12-05T17:53:10.8417036+00:00" endTime="2011-12-05T17:53:10.8527043+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="826fd0b8-0b60-437e-ae65-b03b72fc48b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1476262-f6e4-4f2b-af33-b30e7dab37a2" testId="f05a3889-6b7c-4568-a42d-74c3664a15f6" testName="ExecCommand_Move_N" computerName="JLEYVA-TOSH" duration="00:00:00.0002934" startTime="2011-12-05T17:53:10.8557044+00:00" endTime="2011-12-05T17:53:10.8617048+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1476262-f6e4-4f2b-af33-b30e7dab37a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d23c518-3207-4e1e-ac83-95916f15d6a0" testId="e260c82d-1711-f71e-5732-affb908b9d61" testName="ExecCommand_Move_N_Onvalid" computerName="JLEYVA-TOSH" duration="00:00:00.0008071" startTime="2011-12-05T17:53:10.8647050+00:00" endTime="2011-12-05T17:53:10.8687052+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d23c518-3207-4e1e-ac83-95916f15d6a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d65f1e6-1508-4f98-b507-5c7e07e8bb11" testId="d27af3b4-e2e7-e56e-cc26-c90be0353a7b" testName="ExecCommand_Move_S" computerName="JLEYVA-TOSH" duration="00:00:00.0002857" startTime="2011-12-05T17:53:10.8737055+00:00" endTime="2011-12-05T17:53:10.8807059+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d65f1e6-1508-4f98-b507-5c7e07e8bb11">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e7d63de-122e-43c7-aadf-1f32ab66eb62" testId="6ff55a2c-83d1-716c-26dc-bf502963f2b3" testName="ExecCommand_Move_S_Onvalid" computerName="JLEYVA-TOSH" duration="00:00:00.0007459" startTime="2011-12-05T17:53:10.8827060+00:00" endTime="2011-12-05T17:53:10.8877063+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e7d63de-122e-43c7-aadf-1f32ab66eb62">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8ded23d-9ac0-4288-b601-b6ed62a44378" testId="3e120eee-50cf-44a9-fbd2-80ed8c9e2e89" testName="ExecCommand_Move_T1" computerName="JLEYVA-TOSH" duration="00:00:00.0002677" startTime="2011-12-05T17:53:10.8897064+00:00" endTime="2011-12-05T17:53:10.8947067+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8ded23d-9ac0-4288-b601-b6ed62a44378">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b4d974b-1f69-4d46-9b52-f9370f63dcdb" testId="c84909b0-1154-f1df-c75b-1802e345b76c" testName="ExecCommand_Move_W" computerName="JLEYVA-TOSH" duration="00:00:00.0002758" startTime="2011-12-05T17:53:10.8977068+00:00" endTime="2011-12-05T17:53:10.9017071+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b4d974b-1f69-4d46-9b52-f9370f63dcdb">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f53fd3a-2c2e-4b1d-87d0-f987338a638a" testId="00ef3f0f-8e9f-48fe-99e5-cc322405af54" testName="ExecCommand_Move_W_Onvalid" computerName="JLEYVA-TOSH" duration="00:00:00.0006043" startTime="2011-12-05T17:53:10.9047072+00:00" endTime="2011-12-05T17:53:10.9087075+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f53fd3a-2c2e-4b1d-87d0-f987338a638a">
+    </UnitTestResult>
+    <UnitTestResult executionId="27f55e50-e472-47f5-867d-108735b1bafe" testId="40a3da89-9b26-eb29-47dd-0f141ed477b3" testName="ExecCommand_Right_E" computerName="JLEYVA-TOSH" duration="00:00:00.0002805" startTime="2011-12-05T17:53:10.9127077+00:00" endTime="2011-12-05T17:53:10.9167079+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27f55e50-e472-47f5-867d-108735b1bafe">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb08c7a4-063e-40cc-9d54-e5dafb8d3a60" testId="5c8b7aa3-c821-4c7c-9993-5a4a5dcd4749" testName="ExecCommand_Right_N" computerName="JLEYVA-TOSH" duration="00:00:00.0003541" startTime="2011-12-05T17:53:10.9197081+00:00" endTime="2011-12-05T17:53:10.9287086+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb08c7a4-063e-40cc-9d54-e5dafb8d3a60">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f950269-163b-4566-8959-0ae666bb7922" testId="e46427f7-38cb-b4ad-845a-9b67fb374b86" testName="VehicleConstructorTest1" computerName="JLEYVA-TOSH" duration="00:00:00.0003631" startTime="2011-12-05T17:53:10.9327089+00:00" endTime="2011-12-05T17:53:10.9367091+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f950269-163b-4566-8959-0ae666bb7922">
+    </UnitTestResult>
+  </Results>
+</TestRun>
